@@ -2,7 +2,7 @@ from SinhVien import SinhVien
 
 class QuanLySinhVien:
     listSinhVien = []
-
+    
     def generateID(self):
         maxId = 1
         if self.soLuongSinhVien() > 0:
